@@ -7,6 +7,7 @@
   "authors": [
     "youssefsaad121000-crypto"
   ],
+  "license": "CC0-1.0",
   "environment": "client",
   "entrypoints": {
     "client": [
@@ -15,5 +16,10 @@
   },
   "mixins": [
     "shaderfix.mixins.json"
-  ]
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
 }
